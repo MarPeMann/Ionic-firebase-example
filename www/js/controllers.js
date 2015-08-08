@@ -6,7 +6,7 @@ angular.module('starter.controllers', ['ionic', 'firebase'])
 .controller('DashCtrl', ['$scope', '$firebaseArray', function($scope, $firebaseArray){
 
   //$scope.activities = Activities;
-  var msgRef = new Firebase('https://brilliant-torch-2546.firebaseio.com/messages');
+  var msgRef = new Firebase('https://firebase-url');
 
 
   $scope.messages = $firebaseArray(msgRef);
