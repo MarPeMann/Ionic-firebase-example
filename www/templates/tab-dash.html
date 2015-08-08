@@ -1,12 +1,15 @@
 <ion-view view-title="Dashboard">
   <ion-content class="padding">
-    <div class="list card">
-      <div class="item item-divider">Activity</div>
-      <div class="item item-body">
-        <div>
-          Content from database TBD
+    <div class="list card" ng-controller="DashCtrl" ng-repeat="msg in messages | limitTo:10">
+      <div class="item item-divider" > {{msg.title}}</div>
+      <div class="item item-body" >
+        <div >
+          
+          {{msg.body}}
+
         </div>
       </div>
+      <button class="button button-block button-royal">Reply</button>
     </div>
   </ion-content>
 </ion-view>
