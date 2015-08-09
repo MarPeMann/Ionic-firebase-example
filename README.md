@@ -21,3 +21,12 @@ Latest notifications on Activity view.
 
 One of the notifications marked as read.
 ```
+
+![notification_view.png](https://bitbucket.org/repo/7oE7dK/images/2799331535-notification_view.png)
+
+
+```
+#!All the received notifications, both read or unread
+
+
+```
