@@ -11,17 +11,12 @@ angular.module('starter.controllers', ['ionic', 'firebase'])
 
   $scope.messages = $firebaseArray(msgRef);
 
+  $scope.setAsRead = function(msg){
+    var readRef = new Firebase('https://brilliant-torch-2546.firebaseio.com/messages/' +
+      msg.$id);
+    readRef.child('isRead').set('true');
+  };
 
-
-
-
-
-// taskMsgRef.on('child_added', function(snap) {
-//       msgRef.child(snap.key()).once('value', function() {
-//         // Render the comment on the link page.
-//         var query = msgRef.limitToLast(1);
-//         $scope.messages = $firebaseArray(query); 
-//       });
 }]);
 
 
