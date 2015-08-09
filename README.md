@@ -28,5 +28,6 @@ One of the notifications marked as read.
 ```
 #!All the received notifications, both read or unread
 
+All the received notifications, both read or unread
 
 ```
