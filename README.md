@@ -31,3 +31,5 @@ One of the notifications marked as read.
 All the received notifications, both read or unread
 
 ```
+
+(Settings view TODO)
