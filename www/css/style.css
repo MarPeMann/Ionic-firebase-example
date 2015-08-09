@@ -1,1 +1,15 @@
-/* Empty. Add your own CSS if you like */
+.top {
+    background-color: #660000;
+}
+
+.title {
+    color: white;
+}
+
+.item-divider{
+	font-weight: 700;
+	background-color: gray;
+}
+.item-body{
+	font-style: italic;
+}
